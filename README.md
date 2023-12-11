@@ -1,3 +1,5 @@
+импортировать sql из папки install
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
