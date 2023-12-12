@@ -108,9 +108,13 @@ INSERT INTO t_u_class_of_property (pk_i_id, s_title)
 VALUES (1, 'Элитная недвижимость'),
        (2, 'Недвижимость бизнес-класса');
 
+INSERT INTO t_u_selling_types (pk_i_id, s_title)
+VALUES (1, 'Квартиры');
+
+
 INSERT INTO t_user (pk_i_id, s_name, s_username, s_password, s_email, s_phone, b_enabled, fk_i_photo_id, fk_i_role_id,
                     s_class_of_property_ids, selling_types_ids)
-VALUES (1, 'Скутин Антон', 'skutinanton', 'password', 'mail@mail.com', '+7111111111', 1, 5, 1, '1', '0,1');
+VALUES (1, 'Скутин Антон', 'skutinanton', 'password', 'mail@mail.com', '+7111111111', 1, 5, 1, '1,2', '1');
 
 INSERT INTO t_user_apartment (pk_i_id, fk_i_user_id, fk_i_apartment_id)
 VALUES (1, 1, 1);
