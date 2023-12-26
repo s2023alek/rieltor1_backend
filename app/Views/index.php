@@ -5,6 +5,7 @@ to prepare this app:
 </ol>
 
 REST API:
+
 <ul>
     <li><a href="/apartment/1">apartment/1</a></li>
     <li><a href="/apartment/1">agents/1</a></li>
