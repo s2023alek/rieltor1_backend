@@ -13,3 +13,5 @@ $routes->group( 'photos/upload', static function( $routes ) {
 
 $routes->get('apartment/(:num)', 'Apartment::getOne/$1');
 $routes->get('agents/(:num)', 'Rieltor::getOne/$1');
+
+$routes->get('/', 'Home::index');
